@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+:root{
+    --sh-color: rgba(245, 245, 245, 0.24);
+}
+
+*{
+    background-color: black;
+}
+
+#btn{
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px var(--sh-color);
+    transition: all 0.5s ease-in-out;
+}
+
+#btn:hover{
+    transform: scale(0.95);
+    box-shadow: 2px 2px 8px var(--sh-color);
+}
+
+#btn #plus{
+    transform: translateY(5px);
+}
+
+#card{
+    box-shadow: 3px 3px 10px var(--sh-color);
+}
+
+#delete:hover,
+#edit:hover{
+    color: rgb(255, 133, 133);
+    transform: scale(0.98);
+}
+
+#edit:hover{
+    color: aqua;
+}
